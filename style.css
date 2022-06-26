@@ -22,7 +22,7 @@ body {
 h1 {
   margin-top: 1.5rem;
   font-size: 2.5rem;
-  color: rgb(202, 11, 11);
+  color: rgb(221, 160, 160);
   font-weight: normal;
   margin-bottom: 0.5rem;
 }
@@ -43,4 +43,19 @@ p {
 #dayBaki span {
   font-size: 4rem;
   color: rgb(233, 8, 8);
+}
+
+@media screen and (max-width: 750px) {
+  #hero {
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  #dayBaki {
+    font-size: 1.3rem;
+  }
 }
