@@ -14,11 +14,20 @@ function getTimeRemaining(endtime) {
   };
 }
 
+
+let x = 0;
 let d = "August 20 2022";
 let intervId = setInterval(() => {
   let timeR = getTimeRemaining(d);
-  let timeF = `${timeR.seconds} secs ${timeR.minutes} mins ${timeR.hours} hours<br><span>${timeR.days}</span> days`;
+  let color = "inherit";
+  if ((x % 2) === 0){
+	color="#c45151"
+  }
+  let timeF = `<span style="color: ${color}">${timeR.seconds}</span> secs ${timeR.minutes} mins ${timeR.hours} hours<br><span class="day" >${timeR.days}</span> days`;
   //    let timeF = `${timeR.seconds} সেকেন্ড ${timeR.minutes} মিন ${timeR.hours} ঘণ্টা ${timeR.days} দিন`;
 
   document.getElementById("dayBaki").innerHTML = timeF;
 }, 1000);
+
+let s = setInterval(()=> {x++; if ((x % 2) === 0) {console.log(x);};}, 1000)
+

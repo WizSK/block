@@ -43,7 +43,7 @@ p {
   font-size: 1.5rem;
 }
 
-#dayBaki span {
+.day {
   font-size: 4rem;
   color: rgb(233, 8, 8);
 }
