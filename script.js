@@ -23,6 +23,7 @@ let intervId = setInterval(times, 1000);
 function times(){
   let timeR = getTimeRemaining(d);
   let color = "inherit";
+  x++;
   if ((x % 2) === 0){
 	color="#c45151"
   }
