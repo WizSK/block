@@ -9,8 +9,10 @@
 }
 
 body {
+  padding: none;
+  margin: none;
   display: flex;
-  width: 98vw;
+  width: 95vw;
   height: 96vh;
   align-items: center;
   justify-content: center;
