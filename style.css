@@ -1,0 +1,46 @@
+@font-face {
+  font-family: bangla-font;
+  src: url(./assets/Li-Niladri-Rongtuli-Unicode.ttf);
+}
+
+@font-face {
+  font-family: pop;
+  src: url(./assets/Poppins-SemiBold.ttf);
+}
+
+body {
+  display: flex;
+  width: 98vw;
+  height: 96vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: bangla-font, sans-serif;
+  color: rgb(208, 208, 211);
+  background-color: rgb(20, 16, 16);
+}
+h1 {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  color: rgb(202, 11, 11);
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+.p {
+  margin-top: 0.6rem;
+}
+
+#dayBaki {
+  font-family: pop, sans-serif;
+  font-size: 1.5rem;
+}
+
+#dayBaki span {
+  font-size: 4rem;
+  color: rgb(233, 8, 8);
+}

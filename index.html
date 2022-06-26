@@ -1,73 +1,18 @@
 <!DOCTYPE html>
 <html lang="bn">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <style>
-        @font-face {
-        font-family: bangla-font;
-        src: url(./assets/SUTOM___.TTF);
-        }
-
-        body {
-            display: flex;
-            width: 98vw;
-            height: 96vh;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            font-family: bangla-font, sans-serif;
-        }
-        h1 {
-            margin-top: 1.5rem;
-            font-size: 2.5rem;
-            color: rgb(211, 12, 12);
-        }
-        p  {
-            font-size: 1.7rem;
-        }
-       
-        #dayBaki {
-            font-size: 2rem;
-        }
-
-        #dayBaki span {
-            font-size: 2.8rem;
-            color: rgb(233, 8, 8);
-        }
-    </style>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
     <title>Bro Why are Here</title>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-
-   <h1>
-    ভাই প্লিজ সময় নষ্ট করিস না!
-   </h1>
-   <p>
-    পরিক্ষার বাকি আছে
-   </p>
-   <p id="dayBaki">
-   </p>
-
+      <h1>ভাই প্লিজ সময় নষ্ট করিস না!</h1>
+      <p class="p">পরিক্ষার বাকি আছে মাত্র</p>
+      <p id="dayBaki"></p>
     </div>
-   <script>
-        today=new Date();
-            let exmdate=new Date(today.getFullYear(), 7, 20);
-
-            if (today.getMonth()==11 && today.getDate()>25) {
-            exmdate.setFullYear(exmdate.getFullYear()+1); 
-            };
-
-            let one_day=1000*60*60*24;
-            dayBaki=`<span>${Math.ceil((exmdate.getTime()-today.getTime())/(one_day))}</span> দিন`;
-
-            document.getElementById("dayBaki").innerHTML = dayBaki;
-
-   </script>
-</body>
+  </body>
 </html>
