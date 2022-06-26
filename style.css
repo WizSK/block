@@ -13,7 +13,7 @@ body {
   margin: none;
   display: flex;
   width: 95vw;
-  height: 96vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -21,6 +21,7 @@ body {
   color: rgb(208, 208, 211);
   background-color: rgb(20, 16, 16);
 }
+
 h1 {
   margin-top: 1.5rem;
   font-size: 2.5rem;
@@ -52,10 +53,10 @@ p {
     max-width: 90%;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   #dayBaki {
     font-size: 1.3rem;
