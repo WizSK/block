@@ -16,7 +16,7 @@ function getTimeRemaining(endtime) {
 
 
 let x = 0;
-let d = "October 1 2022";
+let d = "October 26 2022";
 times()
 let intervId = setInterval(times, 1000);
 
