@@ -8,6 +8,10 @@
   src: url(./assets/Poppins-SemiBold.ttf);
 }
 
+html {
+  background-color: rgb(20, 16, 16);
+}
+
 body {
   padding: none;
   margin: none;
