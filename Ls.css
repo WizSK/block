@@ -1,0 +1,18 @@
+@font-face {
+  font-family: pop;
+  src: url(./assets/Poppins-SemiBold.ttf);
+}
+
+html {
+  background-color: rgb(20, 16, 16);
+  color: rgb(215, 213, 213);
+  font-family: pop;
+}
+
+body {
+    text-align: center;
+}
+
+body > p:nth-child(1) {
+    margin-top: 20vh;
+}

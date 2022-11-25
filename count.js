@@ -1,4 +1,4 @@
-let timeleft = 9;
+let timeleft = 20;
 
 const timer = document.getElementById("timeL");
 
