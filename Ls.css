@@ -16,3 +16,7 @@ body {
 body > p:nth-child(1) {
     margin-top: 20vh;
 }
+
+body > h1:nth-child(2) > a:nth-child(1) {
+	color: red;
+}
