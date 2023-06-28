@@ -3,9 +3,15 @@
   src: url(./assets/Li-Niladri-Rongtuli-Unicode.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: pop;
   src: url(./assets/Poppins-SemiBold.ttf);
+} 
+*/
+
+@font-face {
+  font-family: arabic;
+  src: url(./assets/UthmanicHafs1Ver18.woff2)
 }
 
 html {
@@ -18,7 +24,6 @@ body {
   display: flex;
   width: 95vw;
   height: 100vh;
-  align-items: center;
   justify-content: center;
   text-align: center;
   font-family: bangla-font, sans-serif;
@@ -26,8 +31,10 @@ body {
   background-color: rgb(20, 16, 16);
 }
 
+#hero {
+  margin-top: 30vh;
+}
 h1 {
-  margin-top: 1.5rem;
   font-size: 2.5rem;
   color: rgb(221, 160, 160);
   font-weight: normal;
@@ -36,16 +43,9 @@ h1 {
 
 p {
   font-size: 1.7rem;
-}
-
-.p {
   margin-top: 0.6rem;
 }
 
-#dayBaki {
-  font-family: pop, sans-serif;
-  font-size: 1.5rem;
-}
 
 .day {
   font-size: 4rem;
@@ -56,13 +56,21 @@ p {
   #hero {
     max-width: 90%;
   }
+
   h1 {
     font-size: 1.8rem;
   }
+
   p {
     font-size: 1.4rem;
   }
+
   #dayBaki {
     font-size: 1.3rem;
   }
+}
+
+
+.ara {
+  font-family: arabic;
 }
