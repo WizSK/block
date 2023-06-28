@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
   font-family: bangla-font;
   src: url(./assets/Li-Niladri-Rongtuli-Unicode.ttf);
-}
+} */
 
-/* @font-face {
+@font-face {
   font-family: pop;
   src: url(./assets/Poppins-SemiBold.ttf);
 } 
-*/
+
 
 @font-face {
   font-family: arabic;
@@ -19,22 +19,20 @@ html {
 }
 
 body {
-  padding: none;
-  margin: none;
   display: flex;
-  width: 95vw;
+  width: 97vw;
   height: 100vh;
   justify-content: center;
   text-align: center;
-  font-family: bangla-font, sans-serif;
   color: rgb(208, 208, 211);
   background-color: rgb(20, 16, 16);
 }
 
 #hero {
-  margin-top: 30vh;
+  margin-top: 1rem;
 }
 h1 {
+  font-family: pop, sans-serif;
   font-size: 2.5rem;
   color: rgb(221, 160, 160);
   font-weight: normal;
@@ -42,6 +40,7 @@ h1 {
 }
 
 p {
+  font-family: pop, sans-serif;
   font-size: 1.7rem;
   margin-top: 0.6rem;
 }
